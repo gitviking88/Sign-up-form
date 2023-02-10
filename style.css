@@ -118,7 +118,7 @@ body {
     height: 1000px;
     float: right;
     position: relative;
-    background-color: antiquewhite;
+    background-color: rgb(249,250,251);
 }
 
 .middle {
@@ -126,6 +126,8 @@ body {
     top: 50vh;
     background-color: white;
     padding-left: 50px;
+    width: 100%;
+    box-shadow: 0px 10px 5px 0px grey;
 }
 
 h1 {
@@ -136,15 +138,50 @@ h1 {
 }
 
 label {
+    display: block;
 }
 
 form {
     position: relative;
-}
-.nameinfo {
-    border: 2px solid red;
+    font-size: 18px;
 }
 
+.infoleft {
+    /* display: block; */
+    float: left;
+    width: 50%;
+}
+
+.inforight {
+    float: right;
+    width: 50%;
+}
+
+h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+#submitbutton {
+    position: relative;
+    bottom: -120px;
+    background-color: rgb(156,2,8);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+
+}
+
+.already {
+    position: relative;
+    bottom: -120px;
+}
 
 
 

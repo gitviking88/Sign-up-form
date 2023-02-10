@@ -32,27 +32,25 @@
             <div class="middle">
                 <h2>Let's do this!</h2>
                 <form action="#" method="post">
-                    <div class="nameinfo">
+                    <div class="infoleft">
                         <label for="first_name">First Name:</label>
                         <input type="text" id="first_name" required>
-                        <label for="last_name">Last Name:</label>
-                        <input type="text" id="last_name" required>
-                    </div>
-                    <div class="contactinfo">
                         <label for="email">Email:</label>
                         <input type="email" id="email" required>
-                        <label for="phone_number">Phone Number:</label>
-                        <input type="text" id="phone_number" min="8" max="8" required>
-                    </div>
-                    <div class="passwordinfo">
                         <label for="password">Password</label>
                         <input type="password" class="error" id="password" min="8" required>
+                    </div>
+                    <div class="inforright">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" required>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="text" id="phone_number" min="8" max="8" required>
                         <label for="confirmpassword">Confirm Password</label>
                         <input type="password" class="error" id="confirmpassword" min="8" required>
                     </div>
-                    <input type="submit" value="Create Account">
+                    <input id="submitbutton" type="submit" value="Create Account">
                 </form>
-                    <p>Already have an account? <a href="https://www.example.com"></a>Log in</p>
+                    <p class="already">Already have an account? <a href="https://www.example.com"></a>Log in</p>
             </div>
         
             
