@@ -47,8 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-* {
-   /* border: 2px solid red;  */
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -71,7 +71,7 @@ body {
     position: relative;
     background-color: black;
     opacity: 40%;
-    top: 200px;
+    top: 140px;
     width: 100%;
     text-align: center;
     height: 180px;
@@ -109,8 +109,10 @@ body {
     text-align: center;
     width: 100%;
     height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .formholder {
@@ -123,7 +125,7 @@ body {
 
 .middle {
     position: absolute;
-    top: 50vh;
+    top: 40vh;
     background-color: white;
     padding-left: 50px;
     width: 100%;
@@ -139,6 +141,10 @@ h1 {
 
 label {
     display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-bottom: 5px;
 }
 
 form {
@@ -160,14 +166,28 @@ form {
 h2 {
     font-size: 24px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-input {
+.textfield {
     margin-bottom: 20px;
+    height: 25px;
+    border-radius: 5px;
+    width: 250px;
+    opacity: 20%;
+    border: solid grey 2px;
+    padding: 0;
 }
+.textfield:focus {
+    box-shadow: 5px 5px 5px grey;
+    border: solid blue 2px;
+    opacity: 70%;
+    padding:0
+}
+
 
 #submitbutton {
-    position: relative;
+    position: absolute;
     bottom: -120px;
     background-color: rgb(156,2,8);
     color: white;
@@ -175,13 +195,14 @@ input {
     border: none;
     border-radius: 10px;
     font-size: 24px;
-
 }
 
 .already {
-    position: relative;
-    bottom: -120px;
+    position: absolute;
+    bottom: -150px;
 }
+
+
 
 
 
