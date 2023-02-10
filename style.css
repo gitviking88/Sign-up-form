@@ -69,6 +69,36 @@ body {
 
 .logoholder {
     position: absolute;
+    background-color: black;
+    opacity: 40%;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    height: 180px;
+}
+
+#logo {
+    height: 100px;
+    position: relative;
+    display: inline;
+    float: left;
+}
+#logodesc {
+    display: inline;
+
+}
+
+.logotext {
+    font-family: norse-bold;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 235px;
+    display: inline;
+    align-items: center;
+    
 }
 
 .formholder {
@@ -84,6 +114,7 @@ body {
     position: absolute;
     top: 50vh;
     background-color: white;
+    padding-left: 50px;
 }
 
 h1 {
@@ -92,6 +123,7 @@ h1 {
     padding-right: 200px;
     padding-top: 100px;
 }
+
 
 
 
