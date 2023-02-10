@@ -46,10 +46,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* 
+
 * {
-   border: 2px solid red; 
-} */
+   /* border: 2px solid red;  */
+}
 
 body {
     width: 1625px;
@@ -58,17 +58,39 @@ body {
 }
 .imageholder {
     height: 1000px;
-    width: 50%;
+    width: 33%;
     background-image: url(Resources/DALL·E\ 2023-02-10\ 10.35.50.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     float: left;
+    position: relative;
+}
+
+.logoholder {
+    position: absolute;
 }
 
 .formholder {
-    width: 50%;
+    width: 67%;
+    height: 1000px;
     float: right;
+    position: relative;
+    background-color: antiquewhite;
+
+}
+
+.middle {
+    position: absolute;
+    top: 50vh;
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 100px;
 }
 
 
