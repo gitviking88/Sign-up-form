@@ -68,7 +68,7 @@ body {
 }
 
 .logoholder {
-    position: absolute;
+    position: relative;
     background-color: black;
     opacity: 40%;
     top: 200px;
@@ -78,27 +78,39 @@ body {
 }
 
 #logo {
+    /* height: 100px;
+    /* position: relative; */
+    /* float: left;  */
     height: 100px;
-    position: relative;
-    display: inline;
-    float: left;
-}
-#logodesc {
-    display: inline;
+  display: inline-block;
+  vertical-align: middle;
 
+}
+
+
+#logodesc {
+    /* float: right; */
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .logotext {
+    /* font-family: norse-bold;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    /* align-self: center; */
+    /* width: 100%; */
+    /* top: 235px;  */
     font-family: norse-bold;
     font-size: 42px;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
     text-align: center;
     width: 100%;
-    top: 235px;
-    display: inline;
-    align-items: center;
-    
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .formholder {
@@ -107,7 +119,6 @@ body {
     float: right;
     position: relative;
     background-color: antiquewhite;
-
 }
 
 .middle {
@@ -122,6 +133,16 @@ h1 {
     padding-left: 50px;
     padding-right: 200px;
     padding-top: 100px;
+}
+
+label {
+}
+
+form {
+    position: relative;
+}
+.nameinfo {
+    border: 2px solid red;
 }
 
 

@@ -13,8 +13,13 @@
             <div class="logoholder">
             </div>
             <div class="logotext">
+                <div class="logoimage">
                 <img id="logo" src="/Resources/DALL_E_2023-02-10_17.13.32_-_magic_school_logo__white_line_only._black_background._without_text._Schematic-removebg-preview.png" alt="Logo">
-                <p id="logodesc">Billy's<br>Illusionist<br>School</p></div>
+                </div>
+                <div class="billy">
+                <p id="logodesc">Billy's<br>Illusionist<br>School</p>
+                </div>
+            </div>
             <footer class="footerholder">
                 <p>This is a footer</p>
             </footer>
@@ -27,18 +32,24 @@
             <div class="middle">
                 <h2>Let's do this!</h2>
                 <form action="#" method="post">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" id="first_name" required>
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" id="last_name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" required>
-                    <label for="phone_number">Phone Number:</label>
-                    <input type="text" id="phone_number" min="8" max="8" required>
-                    <label for="password">Password</label>
-                    <input type="password" class="error" id="password" min="8" required>
-                    <label for="confirmpassword">Confirm Password</label>
-                    <input type="password" class="error" id="confirmpassword" min="8" required>
+                    <div class="nameinfo">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" id="first_name" required>
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" id="last_name" required>
+                    </div>
+                    <div class="contactinfo">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                        <label for="phone_number">Phone Number:</label>
+                        <input type="text" id="phone_number" min="8" max="8" required>
+                    </div>
+                    <div class="passwordinfo">
+                        <label for="password">Password</label>
+                        <input type="password" class="error" id="password" min="8" required>
+                        <label for="confirmpassword">Confirm Password</label>
+                        <input type="password" class="error" id="confirmpassword" min="8" required>
+                    </div>
                     <input type="submit" value="Create Account">
                 </form>
                     <p>Already have an account? <a href="https://www.example.com"></a>Log in</p>
