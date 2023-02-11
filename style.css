@@ -135,7 +135,7 @@ body {
 
 .middle {
     position: absolute;
-    top: 40vh;
+    top: 35%;
     background-color: white;
     padding-left: 50px;
     padding-bottom: 30px;
@@ -168,14 +168,14 @@ form {
 }
 
 .infoleft {
-    /* display: block; */
     float: left;
-    width: 50%;
+    width: 35%;
 }
 
 .inforight {
-    float: right;
+    float: left;
     width: 50%;
+
 }
 
 h2 {
@@ -188,7 +188,7 @@ h2 {
     margin-bottom: 20px;
     height: 25px;
     border-radius: 5px;
-    width: 250px;
+    width: 270px;
     opacity: 20%;
     border: solid grey 2px;
     padding: 0;
@@ -198,6 +198,18 @@ h2 {
     border: solid blue 2px;
     opacity: 70%;
     padding:0
+}
+
+.errormessage {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+#password, #confirmpassword {
+    border: solid red 2px;
+    opacity: 80%;
 }
 
 

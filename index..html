@@ -34,19 +34,20 @@
                 <form action="#" method="post">
                         <div class="infoleft">
                             <label for="first_name">FIRST NAME</label>
-                            <input class="textfield" type="text" id="first_name" required>
+                            <input class="textfield" type="text" id="first_name" placeholder="Billy" required>
                             <label for="email">EMAIL</label>
-                            <input class="textfield" type="email" id="email" required>
+                            <input class="textfield" type="email" id="email" placeholder="example@examplemail.com" required>
                             <label for="password">PASSWORD</label>
-                            <input class="textfield" type="password" class="error" id="password" min="8" required>
+                            <input class="textfield" type="password" class="error" id="password" min="8" placeholder="********" required>
+                            <span class="errormessage">*Passwords do not match</span>
                         </div>
                         <div class="inforright">
                             <label for="last_name">LAST NAME</label>
-                            <input class="textfield" type="text" id="last_name" required>
+                            <input class="textfield" type="text" id="last_name" placeholder="Billyson" required>
                             <label for="phone_number">PHONE NUMBER</label>
-                            <input class="textfield" type="text" id="phone_number" min="8" max="8" required>
+                            <input class="textfield" type="text" id="phone_number" min="8" max="8" placeholder="12345678" required>
                             <label for="confirmpassword">CONFIRM PASSWORD</label>
-                            <input class="textfield" type="password" class="error" id="confirmpassword" min="8" required>
+                            <input class="textfield" type="password" class="error" id="confirmpassword" min="8" placeholder="********" required>
                         </div>
                     <input id="submitbutton" type="submit" value="Create Account">
                 </form>
